@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authot" content="Iván">
+    <title>Iván</title>
+    <link rel="shortcut icon" href="6988878.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidos a mi página personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#aficiones">Aficiones</a></li>
+                <li><a href="#rankings">Rankings</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Hola soy <strong>Iván</strong> y me gustan los gatos</p>
+            <figure>
+                <img src="catlovers-ecuador.webp" alt="Foto de gato" width="200">
+                <figcaption>Gato</figcaption>
+            </figure>
+        </section>
+
+        <section id="aficiones">
+            <h2>Mis aficiones</h2>
+            <ul>
+                <li>Escuchar música</li>
+                <li>Dibujar</li>
+                <li>Jugar videojuegos</li>
+            </ul>
+            <h3>Mis objetivos personales</h3>
+            <ol>
+                <li>Hacer videojuegos</li>
+                <li>Mejorar en dibujo</li>
+                <li>Aprovar todo</li>
+            </ol>
+        </section>
+
+        <section id="rankings">
+            <h2>Rankings</h2>
+            <table border="1" width="70%">
+                <caption>Videojuegos</caption>
+                <thead>
+                    <tr>
+                        <th>Top</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Omori</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Hollow Knight</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Cuphead</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <table border="1" width="70%">
+                <caption>Música</caption>
+                <thead>
+                    <tr>
+                        <th>Top</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Shadow Of A Man</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Fight Til I'm Good Enough</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Heat abnormal</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>Canción favorita</h3>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/LJEED4n1dP4?si=rGG2YU7P-dtBFvO2&amp;controls=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <aside>
+            <h3>Patrocinadores</h3>
+            <p>Esta web esta patrocinada por <mark>Coca-Cola</mark></p>
+            <figure>
+                <img src="Coca_Cola_Flasche_-_Original_Taste.jpg" alt="Foto de cocacola" width="200">
+            </figure>
+        </aside>
+
+        <section id="contacto">
+            <h2>Formulario de contacto</h2>
+            <p>Rellena el siguiente formulario para ponerte en contacto conmigo:</p>
+
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
+
+                    <label for="fecha">Fecha de nacimiento:</label><br>
+                    <input type="date" id="fecha" name="fecha"><br><br>
+
+                    <label for="color">Color favorito:</label><br>
+                    <input type="color" id="color" name="color"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferencias</legend>
+
+                    <p>Selecciona tu sistema operativo favorito:</p>
+                    <input type="radio" id="windows" name="so" value="Windows" checked>
+                    <label for="windows">Windows</label><br>
+
+                    <input type="radio" id="linux" name="so" value="Linux">
+                    <label for="linux">Linux</label><br>
+
+                    <input type="radio" id="mac" name="so" value="MacOS">
+                    <label for="mac">MacOS</label><br><br>
+
+                    <p>Lenguajes de programación que conoces:</p>
+                    <input type="checkbox" id="html" name="lenguajes" value="HTML" checked>
+                    <label for="html">HTML</label><br>
+
+                    <input type="checkbox" id="python" name="lenguajes" value="Python">
+                    <label for="python">Python</label><br>
+
+                    <input type="checkbox" id="java" name="lenguajes" value="Java">
+                    <label for="java">Java</label><br><br>
+
+                    <label for="nivel">Nivel de experiencia:</label><br>
+                    <select id="nivel" name="nivel">
+                        <option value="principiante">Principiante</option>
+                        <option value="intermedio" selected>Intermedio</option>
+                        <option value="avanzado">Avanzado</option>
+                    </select><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensaje</legend>
+                    <label for="mensaje">Escribe tu mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40"
+                        placeholder="Escribe aquí tu mensaje..."></textarea>
+                </fieldset>
+
+                <br>
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Borrar datos">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Iván | <a href="#top">Volver arriba</a></p>
+        <address>Contacto: ivanfp2008@gmail.com</address>
+    </footer>
+</body>
+
+</html>
