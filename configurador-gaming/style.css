@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border: 3px solid black;
+    width: 300px;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 20px;
+}

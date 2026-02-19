@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Configurador Gaming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Configurador de PC Gaming</h1>
+
+<form id="formulario">
+
+    <label for="ram">RAM (GB):</label>
+    <input type="number" id="ram" min="8" step="8" required>
+
+    <br><br>
+
+    <label for="procesador">Procesador:</label>
+    <select id="procesador">
+        <option value="200">i5 - 200€</option>
+        <option value="350">i7 - 350€</option>
+        <option value="500">i9 - 500€</option>
+    </select>
+
+    <br><br>
+
+    <label>
+        <input type="checkbox" id="refrigeracion">
+        Refrigeración líquida (+80€)
+    </label>
+
+    <br><br>
+
+    <button type="button" onclick="calcular()">Calcular presupuesto</button>
+
+</form>
+
+<br>
+
+<div id="resultado"></div>
+
+<h2>Historial</h2>
+<ul id="historial"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
